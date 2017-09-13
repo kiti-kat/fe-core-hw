@@ -10,9 +10,13 @@
   width: 480px;
 }
 
+.article-content {
+  margin-bottom: 54px;
+}
+
 .title {
   font-family: 'Pathway Gothic One';
-  font-style: italic;
+  font-style: normal;
   font-size: 25px;
   font-weight: bold;
   color: #263555;
@@ -21,7 +25,7 @@
 
 .subtitle {
   font-family: 'arial';
-  font-style: italic;
+  font-style: normal;
   font-size: 14px;
   font-weight: bold;
   color: #263555;
@@ -30,9 +34,8 @@
 
 .text {
   font-family: 'arial';
-  font-style: italic;
+  font-style: normal;
   font-size: 12px;
   font-weight: normal;
   color: #4e5050;
-  margin-bottom: 54px;
 }

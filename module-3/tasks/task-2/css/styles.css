@@ -10,8 +10,14 @@
   width: 480px;
 }
 
+.article-content {
+  margin-bottom: 54px;
+}
+
 .image {
   margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
 }
 
 .title {
@@ -38,5 +44,4 @@
   font-size: 12px;
   font-weight: normal;
   color: #4e5050;
-  margin-bottom: 54px;
 }
