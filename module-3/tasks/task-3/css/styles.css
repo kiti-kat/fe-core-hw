@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 480px;
+}
+
+.list {
+  line-height: 24px;
+  list-style-image: url(/../img/pointer.png);
+}
+
+.list-item {
+  padding-left: 14px;
+  font-family: 'arial';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  color: 263555;
+}

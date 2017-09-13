@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 480px;
+}
+
+.title {
+  font-family: 'Pathway Gothic One';
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  color: #263555;
+  margin-bottom: 34px;
+}
+
+.subtitle {
+  font-family: 'arial';
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  color: #263555;
+  margin-bottom: 26px;
+}
+
+.text {
+  font-family: 'arial';
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+  color: #4e5050;
+  margin-bottom: 54px;
+}
