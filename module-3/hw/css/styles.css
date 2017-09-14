@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 480px;
+}
+
+.article-top {
+  margin-bottom: 54px;
+}
+
+.article-main {
+  margin-bottom: 106px;
+}
+
+.article-bottom {
+  margin-bottom: 40px;
+}
+
+.image {
+  margin-bottom: 30px;
+  display: inline-block;
+  width: 100%;
+}
+
+.title {
+  font-family: 'Pathway Gothic One';
+  font-style: italic;
+  font-size: 25px;
+  font-weight: bold;
+  color: #263555;
+  margin-bottom: 34px;
+}
+
+.subtitle {
+  font-family: 'arial';
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  color: #263555;
+  margin-bottom: 26px;
+}
+
+.tagline {
+  list-style: none;
+}
+
+.tagline-item-heading {
+  margin-bottom: 16px;
+}
+
+.tagline-item {
+  margin-bottom: 26px;
+}
+
+.tagline-item:last-child {
+  margin-bottom: 0;
+}
+
+.text {
+  font-family: 'arial';
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+  color: #4e5050;
+}
+
+.paragraph {
+  font-family: 'arial';
+  font-style: italic;
+  font-size: 12px;
+  font-weight: normal;
+  color: #4e5050;
+}
+
+.list {
+  list-style: none;
+  columns: 2;
+}
+
+.list-item {
+  display: block;
+  font-family: 'arial';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: lighter;
+  color: #263555;
+  margin-bottom: 22px;
+}
+
+.list-item:last-child {
+  margin-bottom: 0;
+}
