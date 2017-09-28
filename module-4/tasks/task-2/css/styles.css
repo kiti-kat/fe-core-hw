@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+}
+
+.list {
+  columns: 2;
+  display: inline-block;
+  list-style: none;
+}
+
+.list-item::before {
+  content: "\2192"
+}

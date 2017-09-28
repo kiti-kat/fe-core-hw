@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  background-image: url(../img/background.png);
+  background-size: 100%;
+}
+
+.list-item:hover {
+  background-color: blue;
+}
+
+.list-item {
+  float: left;
+  font-size: 40px;
+  list-style: none;
+  padding-left: 15px;
+}
