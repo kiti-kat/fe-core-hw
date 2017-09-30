@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-image: url(../img/Home1024.png);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  position: relative;
+}
+
+.menu {
+  position: relative;
+  width: 138px;
+  height: 138px;
+  right: 150px;
+  border-radius: 960px;
+  background-color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 100px;
+}
+
+.menu-center {
+  font-family: 'Dorsa';
+  font-size: 60px;
+  color: #263555;
+  font-weight: normal;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
