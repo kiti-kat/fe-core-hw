@@ -15,20 +15,7 @@
   margin-left: auto;
   width: 1024px;
   position: relative;
-}
-
-.menu {
-  position: relative;
-  width: 138px;
-  height: 138px;
-  right: 150px;
-  border-radius: 960px;
-  background-color: #ffffff;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  margin-top: 100px;
+  min-height: 200px;
 }
 
 .logo {
@@ -37,7 +24,15 @@
   color: #263555;
   font-weight: normal;
   position: absolute;
+  width: 138px;
+  height: 138px;
+  transform: translate(-50%, -50%);
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
-}
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  line-height: 138px;
+} 
