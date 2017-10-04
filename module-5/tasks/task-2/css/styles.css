@@ -25,31 +25,46 @@
   position: absolute;
   width: 1024px;
   margin-left: 44px;
+  list-style: none;
 }
 
 .menu-list {
-  list-style-type: none;
   font-size: 28px;
   float: left;
   margin-right: 60px;
 }
 
-.menu-popup {
-  visibility: hidden;
+.menu-list-item:hover {
+  color: #263555;
+ }
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #fcfafa;
+  border-width: 1px;
+  border-color: #dfdcdc;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.submenu-item {
+}
+
+.submenu-list-item {
+  font-size: 20px;
+  color: #6b7488;
+  font-family: "Pathway Gothic One";
+  text-decoration: none;
+}
+
+.menu-list:nth-child(2): {
   position: relative;
 }
 
-.menu-popup-item {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: "Pathway Gothic One";
-  z-index: 1;
-  position: absolute;
-}
-
-
-.menu-list:nth-child(2):hover {
-  visibility: visible;
+.menu-list:nth-child(2):hover>.submenu {
+  display: block;
 }
 
 .menu-list:nth-child(3) {

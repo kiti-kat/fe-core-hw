@@ -1,0 +1,299 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  background-image: url(../img/Home1024.png);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  position: relative;
+  min-height: 200px;
+}
+
+.menu {
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  width: 1024px;
+  margin-left: 44px;
+  list-style: none;
+}
+
+.menu-list {
+  font-size: 28px;
+  float: left;
+  margin-right: 60px;
+}
+
+.menu-list-item:hover {
+  color: #263555;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  list-style: none;
+  background-color: #fcfafa;
+  border-width: 1px;
+  padding: 8px;
+  border-color: #dfdcdc;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.submenu::before {
+  position: absolute;
+  bottom: 112px;
+  left: 26px;
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid #fcfafa;
+}
+
+.submenu-item {}
+
+.submenu-list-item {
+  font-size: 20px;
+  color: #6b7488;
+  font-family: "Pathway Gothic One";
+  text-decoration: none;
+}
+
+.menu-list:nth-child(2): {
+  position: relative;
+}
+
+.menu-list:nth-child(2):hover>.submenu {
+  display: block;
+}
+
+.menu-list:nth-child(3) {
+  margin-right: 0px;
+}
+
+.menu-list:nth-child(4) {
+  margin-left: 340px;
+}
+
+.menu-list-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Pathway Gothic One"
+}
+
+.logo {
+  font-family: 'Dorsa';
+  font-size: 60px;
+  color: #263555;
+  font-weight: normal;
+  position: absolute;
+  width: 138px;
+  height: 138px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  background-color: #ffffff;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  line-height: 138px;
+}
+
+.slider {
+  position: relative;
+  top: 300px;
+  display: block;
+}
+
+.slider-text-top {
+  font-size: 24px;
+  color: #263555;
+  font-family: "Pathway Gothic One";
+  background: #ffffff;
+  border-top: 400px;
+  width: 224px;
+  height: 62px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  transform: translate(0%, 412%);
+  z-index: 5;
+}
+
+.slider-text-bottom {
+  font-size: 36px;
+  color: #ffffff;
+  font-family: "Pathway Gothic One";
+  background: #38afe5;
+  width: 276px;
+  height: 60px;
+  text-align: center;
+  display: block;
+  position: absolute;
+  transform: translate(0%, 500%);
+  z-index: 5;
+}
+
+.button {
+  border-radius: 50%;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 5;
+  transform: translate(50%, 500%);
+}
+
+.slider-layer1 {
+  position: absolute;
+  width: 900px;
+  height: 580px;
+  z-index: 4;
+}
+
+.slider-layer2 {
+  position: absolute;
+  width: 900px;
+  height: 580px;
+  z-index: 3;
+}
+
+.slider-layer3 {
+  position: absolute;
+  width: 900px;
+  height: 580px;
+  z-index: 2;
+}
+
+.slider-layer4 {
+  position: absolute;
+  width: 900px;
+  height: 580px;
+  z-index: 1;
+}
+
+.left-circle {
+  border-radius: 100% 0 0 100% / 50%;
+  width: 45px;
+  height: 90px;
+  background: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+  float: left;
+}
+
+.left-circle:after {
+  content: "\2190";
+  color: #cbc6c6;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.right-circle {
+  border-radius: 0 100% 100% 0 / 50%;
+  width: 45px;
+  height: 90px;
+  background: #38afe5;
+  text-decoration: none;
+  text-align: center;
+  line-height: 90px;
+  float: left;
+}
+
+.right-circle:after {
+  content: "\2192";
+  color: #cbc6c6;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.left-circle:hover {
+  opacity: 0.5;
+}
+
+.right-circle:hover {
+  opacity: 0.5;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  position: relative;
+  top: 980px;
+}
+
+.footer-head {
+  color: #263555;
+  font-family: "Pathway Gothic One";
+  display: block;
+  bottom: 40px;
+  position: absolute;
+}
+
+.venice-image {
+  width: 288px;
+  height: 270px;
+  position: absolute;
+}
+
+.venice-image:hover {
+
+}
+
+.paris-image {
+  left: 300px;
+  width: 288px;
+  height: 270px;
+  position: absolute;
+}
+.paris-image:hover {
+
+}
+
+.newyork-image {
+  position: absolute;
+  left: 600px;
+  width: 288px;
+  height: 270px;
+}
+
+.newyork-image:hover {
+}
+
+.text-layer1 {
+  position: absolute;
+  background: #193149;
+  width: 144px;
+  height: 270px;
+}
+
+.text-layer2 {
+  position: absolute;
+  background: #193149;
+  width: 144px;
+  height: 270px;
+}
+
+.text-layer3 {
+  position: absolute;
+  background: #193149;
+  width: 144px;
+  height: 270px;
+}
